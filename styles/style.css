@@ -1,0 +1,76 @@
+/* top styles */
+main{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: 540px;
+    height: 220px;
+
+}
+.banner{
+    color:white;
+}
+.banner a{
+    background-color: brown;
+    text-decoration: none;
+}
+.picture img{
+    height: 190px;
+    width: 190px;
+}
+/*------------------- 
+----second section 
+-------------------------*/
+.foot-ball{
+    justify-content: center;
+    
+}
+.top-players{
+    background-color:white;
+    
+}
+.player img{
+    width: 150px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 350px;  
+}
+.player{
+   padding: 10px;
+   border: 2px dashed white;
+}
+.pragraph{
+    width: 150px;
+}
+/* last-section */
+.last{
+    display: flex;
+}
+.last-hed p{
+    width: 250px;
+}
+.last-hed a{
+    text-decoration: none;
+    background-color: rgb(128, 26, 26);
+}
+.last-photo img{
+    height: 200px;
+    width: 250px;
+}
+/* footer */
+footer img{
+    width: 250px;
+    justify-content: center;
+
+}
+.font-awsome{
+    justify-content:center;
+}
