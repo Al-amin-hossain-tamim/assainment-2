@@ -1,4 +1,7 @@
 /* top styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
 main{
     display:grid;
     justify-content: center;
@@ -48,7 +51,7 @@ main{
    border: 2px dashed white;
 }
 .pragraph{
-    width: 150px;
+    width: 200px;
 }
 /* last-section */
 .last{
